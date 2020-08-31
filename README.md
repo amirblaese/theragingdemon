@@ -16,6 +16,6 @@ First, the data is sent to a state variable IIR filter to be either high or low 
 - 2: Applies f(x) = x/(1+(s * x))
 - 3: Applies f(x) = 0.1 * x / ((1 - s) * abs(x));
 
-The "s" parameter controls the slope of distortion and is called "edge" in the plugin. While there is no dry/wet knob implemented, keep in mind that this plugin, or any plugin can have dry/wet associated with it by using it as a send and changing the amount sent to the plugin.
+The "s" parameter adds an additional adjustable parameter for fine tuning. This controls the slope of distortion and is called "edge" in the plugin. While there is no dry/wet knob implemented, keep in mind that this plugin (or any effect) can have dry/wet associated with it by using it as a send and changing the amount sent to the send channel.
 
 
