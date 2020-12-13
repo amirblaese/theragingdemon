@@ -3,11 +3,11 @@
 
 ![Alt text](rd.PNG?raw=true "the raging demon.")
 
-## ABOUT 
+## About 
 
 The raging demon is a distortion plugin designed to add flavor to audio.
 
-## HOW DOES IT WORK?
+## How does it work?
 
 First, the data is sent to a state variable IIR filter to be either high or low passed. Next, the data can have gain added (input [dB]) and then distorted with four modes to choose from:
 
@@ -18,4 +18,6 @@ First, the data is sent to a state variable IIR filter to be either high or low 
 
 The "s" parameter adds an additional adjustable parameter for fine tuning. This controls the slope of distortion and is called "edge" in the plugin. While there is no dry/wet knob implemented, keep in mind that this plugin (or any effect) can have dry/wet associated with it by using it as a send and changing the amount sent to the send channel.
 
+## Installation
 
+Simply copy and paste the appropriate file (.dll for VST and .vst3 for VST3) into your DAW's plugin folder.
