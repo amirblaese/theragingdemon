@@ -1,5 +1,5 @@
 # 👿 The Raging Demon
-
+Written by Shayan Gheidi.
 
 ![Alt text](rd.PNG?raw=true "the raging demon.")
 
